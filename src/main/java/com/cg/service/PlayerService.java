@@ -25,6 +25,7 @@ public class PlayerService implements PlayerDao{
 
 	@Override
 	public List<Player> getAll() {
+	
 		
 		return playerrepo.findAll();
 	}
