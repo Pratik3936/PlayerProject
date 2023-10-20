@@ -1,0 +1,6 @@
+com\cg\Application.class
+com\cg\controller\PlayerController.class
+com\cg\repository\PlayerRepository.class
+com\cg\entity\Player.class
+com\cg\dao\PlayerDao.class
+com\cg\service\PlayerService.class
