@@ -4,7 +4,7 @@
 #RUN mvn clean install
 #CMD mvn spring-boot:run
 FROM openjdk:17-jdk-slim
-ARG JAR_FILE=target/Movies-project.jar
+ARG JAR_FILE=target/Player-Project.jar
 WORKDIR .
 COPY $(JAR_FILE) app.jar
 ENTRYPOINT ["java","-jar","app.jar"]
